@@ -16,6 +16,8 @@ There are two python scripts that are needed to run for this project. To run the
 
 ## Database schema and ETL pipeline
 
+![Star Schema](https://user-images.githubusercontent.com/8104846/189717543-255f698d-9a37-4fc0-846e-48bd7d0071c4.jpg)
+
 This is a star schema database. It has one fact table, `factSongplay`, which represents music streaming events in sequence. It has several dimension tables enriching the data:
 
 1. `dimSong` - information on each song
